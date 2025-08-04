@@ -1,0 +1,39 @@
+.chat {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.bot {
+    flex-direction: row;
+}
+
+.user {
+    flex-direction: row-reverse;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.message {
+    background-color: #ffffff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    max-width: 75%;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #222;
+}
+
+.bot .message {
+  background-color: #e8f0fe; /* azul claro estilo chatbot */
+}
+
+.user .message {
+  background-color: #dcf8c6; /* verde tipo WhatsApp */
+}

@@ -1,0 +1,40 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* 👈 esto sí permite scroll vertical */
+  overflow-x: hidden; /* 👈 opcional: para evitar scroll horizontal */
+}
+
+.App {
+  height: 100%;
+  display: flex;
+}
+
+
+/* ===== Variables globales ===== */
+:root {
+  --color-bg: #f0f0f0;
+  --color-text: #222;
+  --color-accent: #0078D4;
+  --font-base: 'Segoe UI', sans-serif;
+  --scrollbar-color: #bbb;
+  --scrollbar-thumb: #888;
+}
+
+
+/* ===== Scrollbar custom ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* ===== Contenedor Principal ===== */
+
+/* Puedes agregar más clases aquí según tus componentes */

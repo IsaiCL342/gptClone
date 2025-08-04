@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #121212;
+}
+
+.prompts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.promptBtn {
+    background-color: #2a2a2a;
+    color: #eee;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.promptBtn:hover {
+    background-color: #444;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+
+.input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.send {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footerNote {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,53 @@
+.chatContainer {
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    background-color: #1a1a1a;
+    transition: background-color 0.3s ease;
+    height: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+    color: #f1f1f1;
+}
+
+.messageArea {
+    flex: 1;
+    background-color: rgba(52, 52, 52, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+    overflow-y: auto;
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.placeholder {
+    font-size: 1.5rem;
+    color: rgba(200, 200, 200, 0.6);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.chatBubble {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

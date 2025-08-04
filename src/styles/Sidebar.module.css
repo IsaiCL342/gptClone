@@ -1,0 +1,103 @@
+.sideBar {
+    width: 260px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+    border-right: 1px solid #2a2a2a;
+}
+
+.upperSideTop {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.midBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.midBtn:hover {
+    background-color: #444;
+}
+
+.addBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.upperSideBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.query {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: none;
+    border: none;
+    color: #eee;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+    border-radius: 6px;
+}
+
+.query:hover {
+    background-color: #333;
+}
+
+.lowerSide {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 2rem;
+}
+
+.listItems {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #bbb;
+    font-size: 0.95rem;
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.listItems:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.listItemsImg {
+    width: 20px;
+    height: 20px;
+}
